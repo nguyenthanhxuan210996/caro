@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ximg_bg_dialog">
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lablePlayerDialog"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="VS"
+                android:textColor="#00c0e9"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingRight="30dp"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textSize="20sp"
+                android:text="Bạn..."/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:background="@drawable/img_blu" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="1dp"
+                android:paddingBottom="1dp">
+                <ImageButton
+                    android:id="@+id/ibtnOkDialog"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/ximg_btn_ok"
+                    android:src="@null"/>
+                <ImageButton
+                    android:id="@+id/ibtnCannelDialog"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/ximg_btn_cannel"
+                    android:src="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

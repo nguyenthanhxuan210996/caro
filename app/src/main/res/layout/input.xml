@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/img_empty">
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="4dp"
+            android:singleLine="true"
+            android:hint=""
+            android:textSize="20sp"
+            android:background="@drawable/ximg_txt_presss">
+        </EditText>
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:paddingTop="2dp"
+		    android:gravity="left">
+		    <ImageButton
+		        android:id="@+id/btn_connect"
+		        android:layout_width="40dp"
+		        android:layout_height="40dp"
+		        android:layout_marginRight="10dp"
+		        android:padding="2dp"
+		        android:src="@drawable/ximg_btn_ok"
+		        android:background="@null"/>
+		    <ImageButton
+		        android:id="@+id/btn_cancel"
+		        android:layout_width="40dp"
+		        android:layout_height="40dp"
+		        android:layout_marginLeft="10dp"
+		        android:src="@drawable/ximg_btn_cannel"
+		        android:background="@null"/>
+		</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

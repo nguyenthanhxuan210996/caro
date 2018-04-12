@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppCaro</string>
+    <string name="toastPlayerExit">Hãy chọn một tên khác</string>
+    <string name="toastConnectError">Lỗi kết nối</string>
+    <string name="toastReset">Người chơi đã đầu hàng</string>
+    <string name="toastNoContinue">Người chơi không tiếp tục</string>
+    <string name="toastEndGame">Người chơi đã thoát</string>
+    <string name="strDialogWin">Bạn đã thắng</string>
+    <string name="toastBusy">Người chơi đang bận</string>
+    <string name="toastDennie">Người chơi từ chối</string>
+</resources>
